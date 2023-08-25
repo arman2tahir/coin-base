@@ -16,7 +16,7 @@ export default function Header() {
           <div className="searchbar">
             <img src={SearchIcon} alt="Search Icon" className="s-icon" />
             <div className="search">
-              <input type="search" placeholder="Search e.g cards" />
+              <input id='search' type="search" placeholder="Search e.g cards" />
             </div>
           </div>
           <div className="p-img">
