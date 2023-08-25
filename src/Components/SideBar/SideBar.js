@@ -9,15 +9,7 @@ import Statics from "../../Images/stats.svg";
 import Settings from "../../Images/setting.svg";
 
 export default function SideBar() {
-  const buttons = document.querySelectorAll(".s-overview");
-
-  buttons.forEach((button) => {
-    button.addEventListener("click", () => {
-      buttons.forEach((btn) => btn.classList.remove("active"));
-      button.classList.add("active");
-      console.log("clicked");
-    });
-  });
+  
 
   return (
     <aside>
