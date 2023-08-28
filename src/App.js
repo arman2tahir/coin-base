@@ -2,12 +2,11 @@ import './App.css';
 import Header from './Components/Header/Header'
 import SideBar from './Components/SideBar/SideBar'
 import OverView from './Components/OverView/OverView'
-import Conversion from './Components/Conversion/Conversion';
 import Wallet from './Components/Wallet/Wallet';
 import Statistics from './Components/Statistics/Statistics';
 import Users from './Components/Users/Users';
 import Transaction from './Components/Transaction/Transaction';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -25,13 +24,13 @@ function App() {
         </svg>
       </div>
     </div>
-
-    <OverView/>
-    <Conversion />
-    <Wallet />
-    <Statistics/>
-    <Users />
-    <Transaction/>
+      <Routes>
+      <Route path='/' Component={OverView} />
+      <Route path='/wallet' Component={Wallet} />
+      <Route path='/statistics' Component={Statistics} />
+      <Route path='/users' Component={Users} />
+      <Route path='/transaction' Component={Transaction} />
+      </Routes>
 
     </div>
     </Router>
