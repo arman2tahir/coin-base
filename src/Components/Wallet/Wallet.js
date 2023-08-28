@@ -42,11 +42,11 @@ export default function Wallet() {
             </svg>
 
             <svg className='image3' xmlns="http://www.w3.org/2000/svg" width="31" height="14" viewBox="0 0 31 14" fill="none">
-                <path d="M2 12C3.29694 10.3816 7.54148 8.14081 11.6681 10.1327C15.8734 12.1625 17.6425 10.3361 19.0961 6.2734C21.1004 0.671336 27.7031 0.920311 29 5.02853" stroke="url(#paint0_linear_1_1699)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M2 12C3.29694 10.3816 7.54148 8.14081 11.6681 10.1327C15.8734 12.1625 17.6425 10.3361 19.0961 6.2734C21.1004 0.671336 27.7031 0.920311 29 5.02853" stroke="url(#paint0_linear_1_1699)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
                 <defs>
                     <linearGradient id="paint0_linear_1_1699" x1="-4.0293" y1="5.61654" x2="-0.222072" y2="19.8283" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#FC58B3"/>
-                        <stop offset="1" stop-color="#FEAE68"/>
+                        <stop stopColor="#FC58B3"/>
+                        <stop offset="1" stopColor="#FEAE68"/>
                     </linearGradient>
                 </defs>
             </svg>

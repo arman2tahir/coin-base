@@ -26,7 +26,7 @@ export default function Users() {
                 <div className="status-btn btn-active">
                     <button>Active</button>
                 </div>
-                <div className="account">
+                <div className="u-account">
                     <img src={Agent} alt="Agent" />
                     <p className='name'>Ramon Ridwan</p>
                 </div>
@@ -44,7 +44,7 @@ export default function Users() {
                 <div className="status-btn btn-down">
                     <button>Down</button>
                 </div>
-                <div className="account">
+                <div className="u-account">
                     <img src={Agent} alt="Agent" />
                     <p className='name'>Ramon Ridwan</p>
                 </div>
@@ -62,7 +62,7 @@ export default function Users() {
                 <div className="status-btn btn-active">
                     <button>Active</button>
                 </div>
-                <div className="account">
+                <div className="u-account">
                     <img src={Agent} alt="Agent" />
                     <p className='name'>Ramon Ridwan</p>
                 </div>
@@ -80,7 +80,7 @@ export default function Users() {
                 <div className="status-btn btn-pending">
                     <button>Pending</button>
                 </div>
-                <div className="account">
+                <div className="u-account">
                     <img src={Agent} alt="Agent" />
                     <p className='name'>Ramon Ridwan</p>
                 </div>
@@ -98,7 +98,7 @@ export default function Users() {
                 <div className="status-btn btn-active">
                     <button>Active</button>
                 </div>
-                <div className="account">
+                <div className="u-account">
                     <img src={Agent} alt="Agent" />
                     <p className='name'>Ramon Ridwan</p>
                 </div>

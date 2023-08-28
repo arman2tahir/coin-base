@@ -52,11 +52,11 @@ export default function Transaction() {
             <p>12345678</p>
             <p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="13" viewBox="0 0 18 13" fill="none">
-                        <path d="M2.14286 1.39258H15.8571C16.4857 1.39258 17 1.90686 17 2.53544V11.1069C17 11.7354 16.4857 12.2497 15.8571 12.2497H2.14286C1.51429 12.2497 1 11.7354 1 11.1069V2.53544C1 1.90686 1.51429 1.39258 2.14286 1.39258Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M1 4.24934H17" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M15.2861 9.39237V9.9638" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M13.5713 9.39237V9.9638" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M11.8574 9.39237V9.9638" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2.14286 1.39258H15.8571C16.4857 1.39258 17 1.90686 17 2.53544V11.1069C17 11.7354 16.4857 12.2497 15.8571 12.2497H2.14286C1.51429 12.2497 1 11.7354 1 11.1069V2.53544C1 1.90686 1.51429 1.39258 2.14286 1.39258Z" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M1 4.24934H17" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M15.2861 9.39237V9.9638" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M13.5713 9.39237V9.9638" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M11.8574 9.39237V9.9638" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
             </p>
             <p>Amazon</p>
@@ -102,11 +102,11 @@ export default function Transaction() {
             <p>12345678</p>
             <p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="13" viewBox="0 0 18 13" fill="none">
-                        <path d="M2.14286 1H15.8571C16.4857 1 17 1.51429 17 2.14286V10.7143C17 11.3429 16.4857 11.8571 15.8571 11.8571H2.14286C1.51429 11.8571 1 11.3429 1 10.7143V2.14286C1 1.51429 1.51429 1 2.14286 1Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M1 3.85676H17" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M15.2861 8.99979V9.57122" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M13.5713 8.99979V9.57122" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M11.8574 8.99979V9.57122" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2.14286 1H15.8571C16.4857 1 17 1.51429 17 2.14286V10.7143C17 11.3429 16.4857 11.8571 15.8571 11.8571H2.14286C1.51429 11.8571 1 11.3429 1 10.7143V2.14286C1 1.51429 1.51429 1 2.14286 1Z" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M1 3.85676H17" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M15.2861 8.99979V9.57122" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M13.5713 8.99979V9.57122" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M11.8574 8.99979V9.57122" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
             </p>
             <p>Bitcoin</p>

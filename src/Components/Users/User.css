@@ -51,7 +51,7 @@ h1.u-title {
 .status-btn {
   flex: 1;
 }
-.account {
+.u-account {
   flex: 1 1;
   display: flex;
   align-items: center;
@@ -71,7 +71,7 @@ p.email {
   flex: 1;
   text-align: end;
 }
-.account img {
+.u-account img {
   width: 36px;
   height: 36px;
   border-radius: 50%;
@@ -99,7 +99,7 @@ p.email {
 .btn-pending button{
     background: linear-gradient(185deg, #FD749B 0%, #281AC8 100%) !important;
 }
-.account p.name {
+.u-account p.name {
     color: #FFF;
     font-family: Poppins;
     font-size: 12px;

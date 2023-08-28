@@ -15,17 +15,6 @@ export default function SideBar() {
 
   const sidebarItems = document.querySelectorAll('.s-overview ');
 
-    function handleItemClick(index) {
-      sidebarItems.forEach((item, i) => {
-        if (i === index) {
-          item.classList.add('active');
-        } else {
-          item.classList.remove('active');
-        }
-        console.log("clicked")
-      });
-    }
-
   return (
     <aside>
       <div className="sidebar">
