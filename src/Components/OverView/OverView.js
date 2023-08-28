@@ -1,94 +1,29 @@
 import React from "react";
 import "./OverView.css";
-import Trigreen from "../../Images/t-green.svg";
-import Triangle from "../../Images/Triangle.png";
-import Circle from "../../Images/circle.svg";
-import Loader from "../../Images/loader.svg";
-import Vector from "../../Images/vector.svg";
-import Vector2 from "../../Images/vector2.svg";
-import Graph from "../../Images/graph.svg";
-import Options from "../../Images/options.svg";
-import Calender from "../../Images/calender.svg";
+import OverviewBox from "../OverViewBox/OverviewBox";
+
+
 
 export default function OverView(props) {
   return (
-    <React.Fragment>
-      <div className="o-heading">
-        <pre className="o-text">Agent Management   System Overview</pre>
-        <pre className="o-text2">
-          Accounts   |  
-          <pre className="o-text3">
-            AGENT ROSE
-            <img src={Triangle} alt="Trinangle" style={{ margin: "0px 3px" }} />
-          </pre>
-        </pre>
-      </div>
-      <div className="overview">
-        <div className="o-text-wrapper">
-          <h4 className="o-title">Overview</h4>
-          <img src={Calender} alt="Calender" className="calender" />
-        </div>
-        <div className="o-wrapper">
-          <div className="o-trade">
-            <div className="circle">
-              <img src={Circle} alt="circle" className="circle" />
-              <img src={Loader} alt="loader" className="loader" />
-              <img src={Vector} alt="vector" className="vector" />
-              <img src={Vector2} alt="vector2" className="vector2" />
-              <p className="c-text">15000</p>
-            </div>
-            <div className="status">
-              <p className="s-title">
-                Total Number <br /> Of Users
-              </p>
-              <p className="s-num">
-                22.8% <img src={Trigreen} alt="t-green" />
-              </p>
-              <img src={Graph} alt="Graph Base" className="s-graph" />
-              <img src={Options} alt="options" className="c-options" />
-            </div>
-          </div>
-          <div className="o-trade">
-            <div className="circle">
-              <img src={Circle} alt="circle" className="circle" />
-              <img src={Loader} alt="loader" className="loader" />
-              <img src={Vector} alt="vector" className="vector" />
-              <img src={Vector2} alt="vector2" className="vector2" />
-              <p className="c-text">43498</p>
-            </div>
-            <div className="status">
-              <p className="s-title">
-                Total Number <br /> Of Trade
-              </p>
-              <p className="s-num">
-                11.8% <img src={Trigreen} alt="t-green" />
-              </p>
-              <img src={Graph} alt="Graph Base" className="s-graph" />
-              <img src={Options} alt="options" className="c-options" />
-            </div>
-          </div>
-          <div className="o-trade">
-            <div className="circle">
-              <img src={Circle} alt="circle" className="circle" />
-              <img src={Loader} alt="loader" className="loader" />
-              <img src={Vector} alt="vector" className="vector" />
-              <img src={Vector2} alt="vector2" className="vector2" />
-              <p className="c-text">24642</p>
-            </div>
-            <div className="status">
-              <p className="s-title">
-                Total Number <br /> Of Transactions
-              </p>
-              <p className="s-num">
-                11.8%
-                <img src={Trigreen} alt="t-green" />
-              </p>
-              <img src={Graph} alt="Graph Base" className="s-graph" />
-              <img src={Options} alt="options" className="c-options" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </React.Fragment>
+    <div className="overview">
+
+    <div className="overview-bar">
+      <h1 className="o-title">Overview</h1>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+        <path d="M19 2.82568H0.75V20.1632H19V2.82568Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M0.75 7.38818H19" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M5.3125 1V4.65" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M14.4375 1V4.65" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M7.1377 13.0786L9.50344 15.6L12.6127 10.125" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    <div className="boxes">
+    <OverviewBox numbers='15000' totalNumbers="Users" percentage="22.8"/>
+    <OverviewBox numbers='43498' totalNumbers="Trade" percentage="11.8"/>
+    <OverviewBox numbers='24642' totalNumbers="Transaactions" percentage="11.8"/>
+    </div>
+    </div>
   );
 }

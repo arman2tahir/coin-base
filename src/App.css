@@ -1,0 +1,31 @@
+.container {
+    margin-left: 320px;
+    padding: 60px;
+}
+.containter-bar {
+    display: flex;
+    justify-content: space-between;
+}
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+h1.left-sdie {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+p.account {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

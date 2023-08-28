@@ -1,0 +1,77 @@
+.overview-box {
+  border-radius: 10px;
+  border: 2px solid #f0f0f0;
+  background: #1e0338;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  flex: 1;
+  position: relative;
+}
+.b-image svg.circle-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9;
+}
+.b-image {
+    flex: 1;
+    position: relative;
+    text-align: center;
+}
+.b-text {
+    flex: 2;
+    padding: 20px;
+}
+h1.number-text {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+svg.dots {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+.b-image p {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49.5px;
+    background: linear-gradient(144deg, #FC58B3 0%, #FEAE68 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.graph {
+    display: flex;
+    justify-content: space-between;
+}
+p.percent-text {
+    color: #1CD1A1;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.percentage {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+svg.design {
+    position: absolute;
+    top: -22px;
+}
+svg.design-2 {
+    position: absolute;
+    top: 5px;
+    right: -8px;
+}

@@ -1,0 +1,126 @@
+.users {
+  border-radius: 10px;
+  border: 2px solid #f0f0f0;
+  background: #1e0338;
+  margin-top: 40px;
+  padding: 40px;
+}
+h1.u-title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.u-titlebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.u-table-top {
+  display: flex;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+.u-table-top p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 163.418%; /* 19.61px */
+  flex: 1;
+}
+.u-table-top p:nth-child(3) {
+  text-align: center;
+}
+.u-table-top p:last-child {
+  text-align: end;
+}
+.u-table-inner {
+  border-radius: 100px;
+  border: 1px solid #f0f0f0;
+  background: #1e0338;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.status-btn {
+  flex: 1;
+}
+.account {
+  flex: 1 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+p.email {
+    flex: 1 1;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 163.418%;
+    text-align: center;
+}
+.u-dots {
+  flex: 1;
+  text-align: end;
+}
+.account img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.status-btn button {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: grey;
+  padding: 5px 0;
+  border-radius: 30px;
+  border: none;
+  width: 90px;
+}
+.btn-active button{
+    background: #5DF888 !important;
+}
+.btn-down button{
+    background: #FF4949 !important;
+}
+.btn-pending button{
+    background: linear-gradient(185deg, #FD749B 0%, #281AC8 100%) !important;
+}
+.account p.name {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 163.418%;
+}
+button.view-more {
+    background: linear-gradient(185deg, #FD749B 0%, #281AC8 100%);
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 35px;
+}
+.view-btn{
+    text-align: center;
+    margin-top: 30px;
+}

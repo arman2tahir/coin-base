@@ -1,0 +1,82 @@
+.transaction {
+  border-radius: 10px;
+  border: 2px solid #f0f0f0;
+  background: #1e0338;
+  margin-top: 40px;
+  padding: 40px;
+}
+h1.t-title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.t-titlebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.t-table-top {
+  display: flex;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+.t-table-top p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 163.418%;
+  flex: 1 1;
+  text-align: center;
+}
+.t-table-top p:nth-child(1) {
+  text-align: left;
+}
+.t-table-top p:last-child {
+  text-align: right;
+}
+
+.t-table-inner {
+  border-radius: 100px;
+  border: 1px solid #f0f0f0;
+  background: #1e0338;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.t-table-inner p {
+  flex: 1;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+.t-table-inner p:first-child{
+    text-align: left;
+}
+.t-status-btn {
+    flex: 1 1;
+    text-align: center;
+}
+.t-status-btn button {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: grey;
+    padding: 5px 0;
+    border-radius: 30px;
+    border: none;
+    width: 90px;
+}

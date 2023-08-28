@@ -1,0 +1,189 @@
+.statistics {
+  border-radius: 10px;
+  border: 2px solid #f0f0f0;
+  background: #1e0338;
+  margin-top: 40px;
+  padding: 40px;
+  position: relative;
+}
+h1.s-title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.s-titlebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+h2.project-name {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+.bars {
+  display: flex;
+  margin-top: 30px;
+  gap: 15px;
+}
+.bar-numbers p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  height: 60px;
+  width: 50px;
+  text-align: end;
+}
+.bar-lines {
+  border-left: 3px solid #ffffff99;
+  display: flex;
+  flex: 1;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 25%) 0px,
+    rgb(255 255 255 / 25%) 1px,
+    transparent 0px,
+    transparent 60px
+  );
+}
+.lines-inner {
+  flex: 1 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-image: repeating-linear-gradient(
+    to left,
+    rgb(30 3 56) 0px,
+    rgb(30 3 56) 1.5px,
+    transparent 0px,
+    transparent 5px
+  );
+}
+.lines-inner p {
+  border-radius: 55px 55px 0px 0px;
+  background: linear-gradient(185deg, #fd749b 0%, #281ac8 100%);
+  width: 16px;
+}
+.bars-2 {
+  display: flex;
+  margin-top: 15px;
+  gap: 15px;
+}
+.height {
+  width: 50px;
+}
+.bar-text {
+  display: flex;
+  flex: 1 1;
+}
+.bar-text p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex: 1;
+}
+.bars-box h4 {
+  color: #858585;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bars-box p {
+  color: #b327f5;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.3px;
+}
+.bars-box {
+  border-radius: 4px;
+  background: #f3dbf9;
+  padding: 15px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.progress-line {
+  height: 5px;
+  border-radius: 2.5px;
+  background: #fff;
+}
+.progress-line .line {
+  border-radius: 2.5px;
+  background: linear-gradient(185deg, #fd749b 0%, #281ac8 100%);
+  width: 50%;
+  height: 5px;
+}
+.box-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  gap: 40px;
+  top: 140px;
+  left: 328px;
+}
+.box-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-images svg {
+  position: absolute;
+}
+p.Amazon {
+  height: 60%;
+}
+p.Google {
+  height: 60%;
+}
+p.iTunes {
+  height: 30%;
+}
+p.Payoneer {
+  height: 70%;
+}
+p.Bitcoin {
+  height: 50%;
+}
+p.Ethereum {
+  height: 34%;
+}
+p.Tecno {
+  height: 87%;
+}
+p.Paypal {
+  height: 65%;
+}
+p.Aliexpress {
+  height: 47%;
+}
+p.Konga {
+  height: 78%;
+}
+p.Jumia {
+  height: 55%;
+}

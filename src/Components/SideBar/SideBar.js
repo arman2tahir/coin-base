@@ -7,9 +7,13 @@ import Wallet from "../../Images/wallet.svg";
 import Reuse from "../../Images/trans.svg";
 import Statics from "../../Images/stats.svg";
 import Settings from "../../Images/setting.svg";
+//import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 
 export default function SideBar() {
-  
+  // let location = useLocation;
+  // useEffect(() => {
+  //   console.log(location.pathname)
+  // }, [location]);
 
   return (
     <aside>
