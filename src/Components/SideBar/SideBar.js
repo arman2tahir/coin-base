@@ -32,8 +32,8 @@ export default function SideBar() {
   let location = useLocation();
 
   useEffect(() => {
-    console.log(location);
-  }, [location]);
+    
+  }, []);
 
   return (
     <aside>
