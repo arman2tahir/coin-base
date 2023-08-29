@@ -9,69 +9,102 @@
   position: relative;
 }
 .b-image svg.circle-image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
 }
 .b-image {
-    flex: 1;
-    position: relative;
-    text-align: center;
+  flex: 1;
+  position: relative;
+  text-align: center;
 }
 .b-text {
-    flex: 2;
-    padding: 20px;
+  flex: 2;
+  padding: 20px;
 }
 h1.number-text {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 svg.dots {
-    position: absolute;
-    top: 15px;
-    right: 20px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
 }
 .b-image p {
-    text-align: center;
-    font-family: Poppins;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 49.5px;
-    background: linear-gradient(144deg, #FC58B3 0%, #FEAE68 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 49.5px;
+  background: linear-gradient(144deg, #fc58b3 0%, #feae68 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .graph {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 p.percent-text {
-    color: #1CD1A1;
-    font-family: Poppins;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
+  color: #1cd1a1;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
 }
 .percentage {
-    display: flex;
-    align-items: baseline;
-    gap: 5px;
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
 }
 svg.design {
-    position: absolute;
-    top: -22px;
+  position: absolute;
+  top: -22px;
 }
 svg.design-2 {
-    position: absolute;
-    top: 5px;
-    right: -8px;
+  position: absolute;
+  top: 5px;
+  right: -8px;
+}
+.b-view-more {
+  position: absolute;
+  top: 20px;
+  right: -20px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  border: 0px solid #fff;
+  width: 60px;
+  overflow: hidden;
+  height: 0;
+  transition: height 0.3s ease-in-out;
+}
+.b-view-more a {
+  color: #858585;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 0 5px;
+  transition: 0.3s;
+}
+.b-view-more a:hover {
+  background: linear-gradient(185deg, #fd749b 0%, #281ac8 100%);
+  color: #fff;
+}
+.visible {
+  height: 45px;
+  border: 1px solid #fff;
 }

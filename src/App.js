@@ -6,7 +6,7 @@ import Wallet from './Components/Wallet/Wallet';
 import Statistics from './Components/Statistics/Statistics';
 import Users from './Components/Users/Users';
 import Transaction from './Components/Transaction/Transaction';
-import { BrowserRouter as Router, Switch, Route, Link, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
     <SideBar/>
     <div className="container">
     <div className='containter-bar'>
-      <h1 className="left-sdie">Agent Management   System Overview</h1>
+      <pre className="left-sdie">Agent Management    System Overview</pre>
       <div className="right-side">
         <p className="account">Accounts</p> | 
         <p className="account">AGENT ROSE</p>
@@ -25,11 +25,13 @@ function App() {
       </div>
     </div>
       <Routes>
-      <Route path='/' Component={OverView} />
-      <Route path='/wallet' Component={Wallet} />
-      <Route path='/statistics' Component={Statistics} />
-      <Route path='/users' Component={Users} />
-      <Route path='/transaction' Component={Transaction} />
+        <Route path='/' Component={OverView} />
+        <Route path='/wallet' Component={Wallet} />
+        <Route path='/trade' Component={OverView} />
+        <Route path='/statistics' Component={Statistics} />
+        <Route path='/users' Component={Users} />
+        <Route path='/transaction' Component={Transaction} />
+        <Route path='/settings' Component={OverView} />
       </Routes>
 
     </div>
