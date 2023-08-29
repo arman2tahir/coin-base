@@ -1,12 +1,12 @@
 .transaction {
   border-radius: 10px;
   border: 2px solid #f0f0f0;
-  background: #1e0338;
+  background: var(--primary-color);
   margin-top: 40px;
   padding: 40px;
 }
 h1.t-title {
-  color: #fff;
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -25,7 +25,7 @@ h1.t-title {
   margin-bottom: 20px;
 }
 .t-table-top p {
-  color: #fff;
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;
@@ -44,7 +44,7 @@ h1.t-title {
 .t-table-inner {
   border-radius: 100px;
   border: 1px solid #f0f0f0;
-  background: #1e0338;
+  background: var(--primary-color);
   margin-bottom: 20px;
   display: flex;
   align-items: center;
@@ -52,7 +52,7 @@ h1.t-title {
 }
 .t-table-inner p {
   flex: 1;
-  color: #fff;
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;
@@ -68,7 +68,7 @@ h1.t-title {
     text-align: center;
 }
 .t-status-btn button {
-    color: #fff;
+    color: var(--text-color);
     font-family: Poppins;
     font-size: 12px;
     font-style: normal;

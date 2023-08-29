@@ -10,10 +10,10 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    color: white;
+    color: var(--text-color);
 }
 pre.left-sdie {
-    color: #FFF;
+    color: var(--text-color);
     font-family: Poppins;
     font-size: 12px;
     font-style: normal;
@@ -21,7 +21,7 @@ pre.left-sdie {
     line-height: normal;
 }
 p.account {
-    color: #FFF;
+    color: var(--text-color);
     text-align: center;
     font-family: Poppins;
     font-size: 12px;

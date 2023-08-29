@@ -1,7 +1,7 @@
 .conversion {
   border-radius: 10px;
   border: 2px solid #f0f0f0;
-  background: #1e0338;
+  background: var(--primary-color);
   margin-top: 40px;
   padding: 40px;
 }
@@ -11,7 +11,7 @@
   align-items: center;
 }
 h1.title {
-  color: #fff;
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -30,7 +30,7 @@ h1.title {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  background: linear-gradient(180deg, #fd749b 50%, #281ac8 80%);
+  background: linear-gradient(180deg, var(--gradient-pink) 50%, var(--gradient-blue) 80%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -50,7 +50,7 @@ h1.title {
     flex: 0.5;
 }
 .table-content p {
-  color: #fff;
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;
@@ -60,7 +60,7 @@ h1.title {
 .circle-arrow {
     height: 45px;
     width: 45px;
-    background: linear-gradient(185deg, #FD749B 0%, #281AC8 100%);
+    background: linear-gradient(185deg, var(--gradient-pink) 0%, var(--gradient-blue) 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;

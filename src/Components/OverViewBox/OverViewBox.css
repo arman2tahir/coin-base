@@ -1,7 +1,7 @@
 .overview-box {
   border-radius: 10px;
   border: 2px solid #f0f0f0;
-  background: #1e0338;
+  background: var(--primary-color);
   display: flex;
   padding: 20px;
   align-items: center;
@@ -25,7 +25,7 @@
   padding: 20px;
 }
 h1.number-text {
-  color: #fff;
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -84,7 +84,7 @@ svg.design-2 {
   display: flex;
   flex-direction: column;
   border-radius: 3px;
-  border: 0px solid #fff;
+  border: 0px solid var(--text-color);
   width: 60px;
   overflow: hidden;
   height: 0;
@@ -101,10 +101,10 @@ svg.design-2 {
   transition: 0.3s;
 }
 .b-view-more a:hover {
-  background: linear-gradient(185deg, #fd749b 0%, #281ac8 100%);
-  color: #fff;
+  background: linear-gradient(185deg, var(--gradient-pink) 0%, var(--gradient-blue) 100%);
+  color: var(--text-color);
 }
 .visible {
   height: 45px;
-  border: 1px solid #fff;
+  border: 1px solid var(--text-color);
 }

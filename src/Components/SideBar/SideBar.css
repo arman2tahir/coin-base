@@ -8,7 +8,7 @@ aside {
 /* 
   .g-overview {
     margin-top: 35px;
-    background: linear-gradient(185deg, #fd749b 0%, #281ac8 100%);
+    background: linear-gradient(185deg, var(--gradient-pink) 0%, var(--gradient-blue) 100%);
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
     width: 250px;
@@ -29,7 +29,7 @@ aside {
   }
   
   .g-text {
-    color: #fff;
+    color: var(--text-color);
     font-family: "Poppins", sans-serif;
     font-size: 13px;
     cursor: pointer;
@@ -39,7 +39,7 @@ aside {
 /* Simple Sidebar */
 
 .s-overview {
-    color: #FFF;
+    color: var(--text-color);
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -108,7 +108,7 @@ a {
 }
 
 .active {
-  background: linear-gradient(185deg, #fd749b 0%, #281ac8 100%);
+  background: linear-gradient(185deg, var(--gradient-pink) 0%, var(--gradient-blue) 100%);
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
 }

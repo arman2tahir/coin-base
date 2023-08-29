@@ -1,13 +1,13 @@
 .statistics {
   border-radius: 10px;
   border: 2px solid #f0f0f0;
-  background: #1e0338;
+  background: var(--primary-color);
   margin-top: 40px;
   padding: 40px;
   position: relative;
 }
 h1.s-title {
-  color: #fff;
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -21,7 +21,7 @@ h1.s-title {
   margin-bottom: 30px;
 }
 h2.project-name {
-  color: #fff;
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;
@@ -34,7 +34,7 @@ h2.project-name {
   gap: 15px;
 }
 .bar-numbers p {
-  color: #fff;
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;
@@ -71,7 +71,7 @@ h2.project-name {
 }
 .lines-inner p {
   border-radius: 55px 55px 0px 0px;
-  background: linear-gradient(185deg, #fd749b 0%, #281ac8 100%);
+  background: linear-gradient(185deg, var(--gradient-pink) 0%, var(--gradient-blue) 100%);
   width: 16px;
 }
 .bars-2 {
@@ -87,7 +87,7 @@ h2.project-name {
   flex: 1 1;
 }
 .bar-text p {
-  color: #fff;
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;
@@ -132,7 +132,7 @@ h2.project-name {
 }
 .progress-line .line {
   border-radius: 2.5px;
-  background: linear-gradient(185deg, #fd749b 0%, #281ac8 100%);
+  background: linear-gradient(185deg, var(--gradient-pink) 0%, var(--gradient-blue) 100%);
   width: 50%;
   height: 5px;
 }

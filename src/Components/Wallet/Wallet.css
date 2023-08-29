@@ -1,7 +1,7 @@
 .wallet {
   border-radius: 10px;
   border: 2px solid #f0f0f0;
-  background: #1e0338;
+  background: var(--primary-color);
   margin-top: 40px;
   padding: 40px;
   background-image: url(../../Images/w-bg.svg);
@@ -12,7 +12,7 @@
   overflow: hidden;
 }
 h1.w-title {
-  color: #fff;
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -34,7 +34,7 @@ button.w-btn {
   line-height: normal;
   padding: 15px 20px;
   border: none;
-  color: #281ac8;
+  color: var(--gradient-blue);
 }
 .w-content {
   display: flex;
@@ -55,7 +55,7 @@ img.trophy {
 }
 button.tatalEarn {
   background: linear-gradient(144deg, #fc58b3 0%, #feae68 100%);
-  color: #fff;
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;
@@ -67,7 +67,7 @@ button.tatalEarn {
 }
 button.balance {
   background: linear-gradient(144deg, #fc58b3 0%, #feae68 100%);
-  color: #fff;
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;
@@ -79,7 +79,7 @@ button.balance {
 }
 .w-total h1,
 .w-balance h1 {
-  color: #fff;
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 36px;
   font-style: normal;
@@ -88,7 +88,7 @@ button.balance {
 }
 .w-total p,
 .w-balance p {
-  color: #fff;
+  color: var(--text-color);
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;

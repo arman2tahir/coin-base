@@ -1,0 +1,13 @@
+body {
+    --primary-color: #1E0338;
+    --text-color: #fff;
+    --gradient-pink: #FD749B;
+    --gradient-blue: #281AC8;
+}
+
+body.light {
+    --primary-color: #FFF9FE;
+    --text-color: #858585;
+    --gradient-pink: #FD749B;
+    --gradient-blue: #281AC8;
+}
