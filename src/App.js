@@ -16,7 +16,7 @@ function App() {
       <SideBar />
       <div className="container">
         <div className="containter-bar">
-          <pre className="left-sdie">Agent Management System Overview</pre>
+          <pre className="left-sdie">Agent Management    System Overview</pre>
           <div className="right-side">
             <p className="account">Accounts</p> |
             <p className="account">AGENT ROSE</p>
