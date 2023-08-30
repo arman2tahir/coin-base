@@ -1,133 +1,100 @@
-import React from 'react'
-import "./Transaction.css"
+import React from "react";
+import "./Transaction.css";
+import { DotIcon } from "../../Images/Svgs/DotIcon";
+import { BitCoinIcon } from "../../Images/Svgs/BitCoinIcon";
+import { CardIcon } from "../../Images/Svgs/CardIcon";
 
 export default function Transaction() {
   return (
     <div className="transaction">
-        <div className="t-titlebar">
-            <h1 className="t-title">Transactions</h1>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="4" viewBox="0 0 16 4" fill="none">
-  <path d="M1.86673 3.73333C0.8358 3.73333 6.50883e-05 2.8976 6.50883e-05 1.86667C6.50883e-05 0.835735 0.8358 0 1.86673 0C2.89766 0 3.7334 0.835735 3.7334 1.86667C3.7334 2.8976 2.89766 3.73333 1.86673 3.73333Z" fill="white"/>
-  <path d="M7.99954 3.73333C6.96861 3.73333 6.13288 2.8976 6.13288 1.86667C6.13288 0.835735 6.96861 0 7.99954 0C9.03048 0 9.86621 0.835735 9.86621 1.86667C9.86621 2.8976 9.03048 3.73333 7.99954 3.73333Z" fill="white"/>
-  <path d="M14.1333 3.73333C13.1024 3.73333 12.2667 2.8976 12.2667 1.86667C12.2667 0.835735 13.1024 0 14.1333 0C15.1643 0 16 0.835735 16 1.86667C16 2.8976 15.1643 3.73333 14.1333 3.73333Z" fill="white"/>
-            </svg>
-        </div>
+      <div className="t-titlebar">
+        <h1 className="t-title">Transactions</h1>
+        <DotIcon />
+      </div>
 
-        <div className="t-table-top">
-            <p>Account Status</p>
-            <p>User Name</p>
-            <p>Email</p>
-            <p>Action</p>
-            <p>Action</p>
-            <p>Action</p>
-            <p>Action</p>
-            <p>Action</p>
-        </div>
+      <div className="t-table-top">
+        <p>Account Status</p>
+        <p>User Name</p>
+        <p>Email</p>
+        <p>Action</p>
+        <p>Action</p>
+        <p>Action</p>
+        <p>Action</p>
+        <p>Action</p>
+      </div>
 
-        <div className="t-table-content">
+      <div className="t-table-content">
         <div className="t-table-inner">
-                <p>14/01/2019</p>
-                <p>12345678</p>
-                <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <path d="M10.1919 7.43456C11.0816 6.83594 11.6665 5.82031 11.6665 4.66747C11.6665 3.05759 10.5249 1.71384 9.00688 1.40234V0.333C9.00684 0.149406 8.85791 0 8.67381 0C8.48972 0 8.34031 0.149406 8.34031 0.333V1.33397C8.33788 1.33397 8.33544 1.33397 8.33347 1.33397H6.99312V0.333C6.99316 0.149406 6.84375 0 6.65966 0C6.47556 0 6.32616 0.149406 6.32616 0.333V1.33397H4.78709V1.333H3.33347C3.14941 1.333 3 1.48244 3 1.6665C3 1.85056 3.14941 2 3.3335 2H4.3335V14H3.3335C3.14941 14 3 14.1494 3 14.3335C3 14.5176 3.14941 14.667 3.3335 14.667H6.32619V15.6665C6.32619 15.8506 6.47559 16 6.65969 16C6.84378 16 6.99319 15.8506 6.99319 15.6665V14.667H8.34034V15.6665C8.34034 15.8506 8.48975 16 8.67384 16C8.85794 16 9.00684 15.8506 9.00684 15.6665V14.667H9.3335C11.3584 14.667 13 13.0254 13 11C13 9.2705 11.8027 7.82128 10.1919 7.43456ZM5 2.00097H8.3335C9.04541 2.00097 9.71534 2.27831 10.2188 2.78172C10.7227 3.28513 11 3.95506 11 4.66747C11 5.37987 10.7227 6.04931 10.2188 6.55272C9.72706 7.04491 9.07716 7.32078 8.38331 7.33347H5V2.00097ZM11.4546 13.1216C10.8882 13.6885 10.1347 14 9.3335 14H5V8.00097H8.3335C8.34963 8.00097 8.36572 8.00047 8.38134 8H9.3335C10.1348 8 10.8882 8.3125 11.4546 8.87891C12.0215 9.44531 12.3335 10.1987 12.3335 11C12.3335 11.8018 12.0215 12.5547 11.4546 13.1216Z" fill="white"/>
-                    </svg>
-                </p>
-                <p>Bitcoin</p>
-                <p>$100</p>
-                <p>#18000</p>
-                <div className="t-status-btn btn-active">
-                    <button>Completed</button>
-                </div>
-                <div className="u-dots">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="4" viewBox="0 0 16 4" fill="none">
-                        <path d="M1.86673 3.73333C0.8358 3.73333 6.50883e-05 2.8976 6.50883e-05 1.86667C6.50883e-05 0.835735 0.8358 0 1.86673 0C2.89766 0 3.7334 0.835735 3.7334 1.86667C3.7334 2.8976 2.89766 3.73333 1.86673 3.73333Z" fill="white"/>
-                        <path d="M7.99954 3.73333C6.96861 3.73333 6.13288 2.8976 6.13288 1.86667C6.13288 0.835735 6.96861 0 7.99954 0C9.03048 0 9.86621 0.835735 9.86621 1.86667C9.86621 2.8976 9.03048 3.73333 7.99954 3.73333Z" fill="white"/>
-                        <path d="M14.1333 3.73333C13.1024 3.73333 12.2667 2.8976 12.2667 1.86667C12.2667 0.835735 13.1024 0 14.1333 0C15.1643 0 16 0.835735 16 1.86667C16 2.8976 15.1643 3.73333 14.1333 3.73333Z" fill="white"/>
-                    </svg>
-                </div>
+          <p>14/01/2019</p>
+          <p>12345678</p>
+          <p>
+            <BitCoinIcon />
+          </p>
+          <p>Bitcoin</p>
+          <p>$100</p>
+          <p>#18000</p>
+          <div className="t-status-btn btn-active">
+            <button>Completed</button>
+          </div>
+          <div className="u-dots">
+            <DotIcon />
+          </div>
         </div>
 
         <div className="t-table-inner">
-            <p>14/01/2019</p>
-            <p>12345678</p>
-            <p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="13" viewBox="0 0 18 13" fill="none">
-                        <path d="M2.14286 1.39258H15.8571C16.4857 1.39258 17 1.90686 17 2.53544V11.1069C17 11.7354 16.4857 12.2497 15.8571 12.2497H2.14286C1.51429 12.2497 1 11.7354 1 11.1069V2.53544C1 1.90686 1.51429 1.39258 2.14286 1.39258Z" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
-                        <path d="M1 4.24934H17" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
-                        <path d="M15.2861 9.39237V9.9638" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
-                        <path d="M13.5713 9.39237V9.9638" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
-                        <path d="M11.8574 9.39237V9.9638" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-            </p>
-            <p>Amazon</p>
-            <p>$100</p>
-            <p>#18000</p>
-            <div className="t-status-btn btn-down">
-                <button>Failed</button>
-            </div>
-            <div className="u-dots">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="4" viewBox="0 0 16 4" fill="none">
-                        <path d="M1.86673 3.73333C0.8358 3.73333 6.50883e-05 2.8976 6.50883e-05 1.86667C6.50883e-05 0.835735 0.8358 0 1.86673 0C2.89766 0 3.7334 0.835735 3.7334 1.86667C3.7334 2.8976 2.89766 3.73333 1.86673 3.73333Z" fill="white"/>
-                        <path d="M7.99954 3.73333C6.96861 3.73333 6.13288 2.8976 6.13288 1.86667C6.13288 0.835735 6.96861 0 7.99954 0C9.03048 0 9.86621 0.835735 9.86621 1.86667C9.86621 2.8976 9.03048 3.73333 7.99954 3.73333Z" fill="white"/>
-                        <path d="M14.1333 3.73333C13.1024 3.73333 12.2667 2.8976 12.2667 1.86667C12.2667 0.835735 13.1024 0 14.1333 0C15.1643 0 16 0.835735 16 1.86667C16 2.8976 15.1643 3.73333 14.1333 3.73333Z" fill="white"/>
-                </svg>
-            </div>
+          <p>14/01/2019</p>
+          <p>12345678</p>
+          <p>
+            <CardIcon />
+          </p>
+          <p>Amazon</p>
+          <p>$100</p>
+          <p>#18000</p>
+          <div className="t-status-btn btn-down">
+            <button>Failed</button>
+          </div>
+          <div className="u-dots">
+            <DotIcon />
+          </div>
         </div>
 
         <div className="t-table-inner">
-            <p>14/01/2019</p>
-            <p>12345678</p>
-            <p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                        <path d="M10.1919 7.43456C11.0816 6.83594 11.6665 5.82031 11.6665 4.66747C11.6665 3.05759 10.5249 1.71384 9.00688 1.40234V0.333C9.00684 0.149406 8.85791 0 8.67381 0C8.48972 0 8.34031 0.149406 8.34031 0.333V1.33397C8.33788 1.33397 8.33544 1.33397 8.33347 1.33397H6.99312V0.333C6.99316 0.149406 6.84375 0 6.65966 0C6.47556 0 6.32616 0.149406 6.32616 0.333V1.33397H4.78709V1.333H3.33347C3.14941 1.333 3 1.48244 3 1.6665C3 1.85056 3.14941 2 3.3335 2H4.3335V14H3.3335C3.14941 14 3 14.1494 3 14.3335C3 14.5176 3.14941 14.667 3.3335 14.667H6.32619V15.6665C6.32619 15.8506 6.47559 16 6.65969 16C6.84378 16 6.99319 15.8506 6.99319 15.6665V14.667H8.34034V15.6665C8.34034 15.8506 8.48975 16 8.67384 16C8.85794 16 9.00684 15.8506 9.00684 15.6665V14.667H9.3335C11.3584 14.667 13 13.0254 13 11C13 9.2705 11.8027 7.82128 10.1919 7.43456ZM5 2.00097H8.3335C9.04541 2.00097 9.71534 2.27831 10.2188 2.78172C10.7227 3.28513 11 3.95506 11 4.66747C11 5.37987 10.7227 6.04931 10.2188 6.55272C9.72706 7.04491 9.07716 7.32078 8.38331 7.33347H5V2.00097ZM11.4546 13.1216C10.8882 13.6885 10.1347 14 9.3335 14H5V8.00097H8.3335C8.34963 8.00097 8.36572 8.00047 8.38134 8H9.3335C10.1348 8 10.8882 8.3125 11.4546 8.87891C12.0215 9.44531 12.3335 10.1987 12.3335 11C12.3335 11.8018 12.0215 12.5547 11.4546 13.1216Z" fill="white"/>
-                </svg>
-            </p>
-            <p>Bitcoin</p>
-            <p>$100</p>
-            <p>#18000</p>
-            <div className="t-status-btn btn-active">
-                <button>Completed</button>
-            </div>
-            <div className="u-dots">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="4" viewBox="0 0 16 4" fill="none">
-                        <path d="M1.86673 3.73333C0.8358 3.73333 6.50883e-05 2.8976 6.50883e-05 1.86667C6.50883e-05 0.835735 0.8358 0 1.86673 0C2.89766 0 3.7334 0.835735 3.7334 1.86667C3.7334 2.8976 2.89766 3.73333 1.86673 3.73333Z" fill="white"/>
-                        <path d="M7.99954 3.73333C6.96861 3.73333 6.13288 2.8976 6.13288 1.86667C6.13288 0.835735 6.96861 0 7.99954 0C9.03048 0 9.86621 0.835735 9.86621 1.86667C9.86621 2.8976 9.03048 3.73333 7.99954 3.73333Z" fill="white"/>
-                        <path d="M14.1333 3.73333C13.1024 3.73333 12.2667 2.8976 12.2667 1.86667C12.2667 0.835735 13.1024 0 14.1333 0C15.1643 0 16 0.835735 16 1.86667C16 2.8976 15.1643 3.73333 14.1333 3.73333Z" fill="white"/>
-                </svg>
-            </div>
+          <p>14/01/2019</p>
+          <p>12345678</p>
+          <p>
+            <BitCoinIcon />
+          </p>
+          <p>Bitcoin</p>
+          <p>$100</p>
+          <p>#18000</p>
+          <div className="t-status-btn btn-active">
+            <button>Completed</button>
+          </div>
+          <div className="u-dots">
+            <DotIcon />
+          </div>
         </div>
 
         <div className="t-table-inner">
-            <p>14/01/2019</p>
-            <p>12345678</p>
-            <p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="13" viewBox="0 0 18 13" fill="none">
-                        <path d="M2.14286 1H15.8571C16.4857 1 17 1.51429 17 2.14286V10.7143C17 11.3429 16.4857 11.8571 15.8571 11.8571H2.14286C1.51429 11.8571 1 11.3429 1 10.7143V2.14286C1 1.51429 1.51429 1 2.14286 1Z" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
-                        <path d="M1 3.85676H17" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
-                        <path d="M15.2861 8.99979V9.57122" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
-                        <path d="M13.5713 8.99979V9.57122" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
-                        <path d="M11.8574 8.99979V9.57122" stroke="white" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-            </p>
-            <p>Bitcoin</p>
-            <p>$100</p>
-            <p>#18000</p>
-            <div className="t-status-btn btn-pending">
-                <button>In Progress</button>
-            </div>
-            <div className="u-dots">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="4" viewBox="0 0 16 4" fill="none">
-                        <path d="M1.86673 3.73333C0.8358 3.73333 6.50883e-05 2.8976 6.50883e-05 1.86667C6.50883e-05 0.835735 0.8358 0 1.86673 0C2.89766 0 3.7334 0.835735 3.7334 1.86667C3.7334 2.8976 2.89766 3.73333 1.86673 3.73333Z" fill="white"/>
-                        <path d="M7.99954 3.73333C6.96861 3.73333 6.13288 2.8976 6.13288 1.86667C6.13288 0.835735 6.96861 0 7.99954 0C9.03048 0 9.86621 0.835735 9.86621 1.86667C9.86621 2.8976 9.03048 3.73333 7.99954 3.73333Z" fill="white"/>
-                        <path d="M14.1333 3.73333C13.1024 3.73333 12.2667 2.8976 12.2667 1.86667C12.2667 0.835735 13.1024 0 14.1333 0C15.1643 0 16 0.835735 16 1.86667C16 2.8976 15.1643 3.73333 14.1333 3.73333Z" fill="white"/>
-                </svg>
-            </div>
+          <p>14/01/2019</p>
+          <p>12345678</p>
+          <p>
+            <CardIcon />
+          </p>
+          <p>Bitcoin</p>
+          <p>$100</p>
+          <p>#18000</p>
+          <div className="t-status-btn btn-pending">
+            <button>In Progress</button>
+          </div>
+          <div className="u-dots">
+            <DotIcon />
+          </div>
         </div>
-        </div>
-        <div className="view-btn">
-
+      </div>
+      <div className="view-btn">
         <button className="view-more">View More</button>
-        </div>
+      </div>
     </div>
-  )
+  );
 }

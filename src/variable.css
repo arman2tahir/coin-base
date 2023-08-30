@@ -3,6 +3,12 @@ body {
     --text-color: #fff;
     --gradient-pink: #FD749B;
     --gradient-blue: #281AC8;
+    --gradient-icons1: #fff;
+    --gradient-icons2: #fff;
+    --bg-gradient1: #1E0338;
+    --bg-gradient2: #1E0338;
+    --border-color: #ffffff40;
+    --dark-btn-bg: rgba(246,247,249,.05);
 }
 
 body.light {
@@ -10,4 +16,11 @@ body.light {
     --text-color: #858585;
     --gradient-pink: #FD749B;
     --gradient-blue: #281AC8;
+    /* Gradients icon colors change in theme change */
+    --gradient-icons1: #FD749B;
+    --gradient-icons2: #281AC8;
+    --bg-gradient1: #FD749B;
+    --bg-gradient2: #281AC8;
+    --border-color: #8CA0B3;
+    --dark-btn-bg:rgba(35,39,47,.05);
 }

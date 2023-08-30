@@ -78,7 +78,7 @@ p.email {
   object-fit: cover;
 }
 .status-btn button {
-  color: var(--text-color);
+  color: #fff;
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;
@@ -109,7 +109,7 @@ p.email {
 }
 button.view-more {
     background: linear-gradient(185deg, var(--gradient-pink) 0%, var(--gradient-blue) 100%);
-    color: var(--text-color);
+    color: #fff;
     text-align: center;
     font-family: Poppins;
     font-size: 10px;

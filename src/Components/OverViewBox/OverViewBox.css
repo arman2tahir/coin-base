@@ -32,11 +32,12 @@ h1.number-text {
   font-weight: 700;
   line-height: normal;
 }
-svg.dots {
+.dots {
   position: absolute;
   top: 15px;
   right: 20px;
   cursor: pointer;
+  display: flex;
 }
 .b-image p {
   text-align: center;
@@ -102,7 +103,7 @@ svg.design-2 {
 }
 .b-view-more a:hover {
   background: linear-gradient(185deg, var(--gradient-pink) 0%, var(--gradient-blue) 100%);
-  color: var(--text-color);
+  color: #fff;
 }
 .visible {
   height: 45px;

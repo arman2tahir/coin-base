@@ -1,27 +1,26 @@
 import React, { useEffect, useState } from "react";
 import "./SideBar.css";
-import Eye from "../../Images/overview.svg";
-import User from "../../Images/users.svg";
-import Message from "../../Images/trade.svg";
-import Wallet from "../../Images/wallet.svg";
-import Reuse from "../../Images/trans.svg";
-import Statics from "../../Images/stats.svg";
-import Settings from "../../Images/setting.svg";
 import { Link, useLocation } from 'react-router-dom';
-
+import { EyeIcon } from "../../Images/Svgs/EyeIcon";
+import { UserIcon } from "../../Images/Svgs/UserIcon";
+import { TradeIcon } from "../../Images/Svgs/TradeIcon";
+import { WalletIcon } from "../../Images/Svgs/WalletIcon";
+import { ReuseIcon } from "../../Images/Svgs/ReuseIcon";
+import { StatsIcon } from "../../Images/Svgs/StatsIcon";
+import { SettingIcon } from "../../Images/Svgs/SettingIcon";
 
 export default function SideBar() {
 
   const [activeBar, setActiveBar] = useState(0);
 
   const sidebarItems = [
-    { icon: Eye, label: "Overview", path: "/" },
-    { icon: User, label: "User", path: "/users" },
-    { icon: Message, label: "Trade", path: "/trade" },
-    { icon: Wallet, label: "Wallet", path: "/wallet" },
-    { icon: Reuse, label: "Transactions", path: "/transaction" },
-    { icon: Statics, label: "Statistics", path: "/statistics" },
-    { icon: Settings, label: "Setting", path: "/settings" },
+    { icon: <EyeIcon />, label: "Overview", path: "/" },
+    { icon: <UserIcon />, label: "User", path: "/users" },
+    { icon: <TradeIcon />, label: "Trade", path: "/trade" },
+    { icon: <WalletIcon />, label: "Wallet", path: "/wallet" },
+    { icon: <ReuseIcon />, label: "Transactions", path: "/transaction" },
+    { icon: <StatsIcon />, label: "Statistics", path: "/statistics" },
+    { icon: <SettingIcon />, label: "Setting", path: "/settings" },
     
   ];
 
@@ -45,7 +44,7 @@ export default function SideBar() {
               onClick={() => handleItemClick(index)}
             >
               <div className="s-wrapper">
-                <img src={item.icon} alt={item.label} className="s-eye" />
+                {item.icon}
                 {item.label}
               </div>
             </div>

@@ -111,6 +111,7 @@ a {
   background: linear-gradient(185deg, var(--gradient-pink) 0%, var(--gradient-blue) 100%);
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
+  color: #fff;
 }
 
 .active a {

@@ -1,4 +1,4 @@
-header{
+header {
   position: sticky;
   top: 0;
   z-index: 99;
@@ -9,8 +9,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border-bottom: 2px solid #f7f7f7;
+  border-bottom: 2px solid #f0f0f0;
   background: var(--primary-color);
+  padding: 0 50px;
 }
 
 .logo {
@@ -18,16 +19,15 @@ nav {
 }
 
 .left {
-  margin-left: 65px;
   flex: 1;
 }
 
 .right {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
   flex: 1.4;
-  margin-right: 12px;
+  justify-content: flex-end;
+  gap: 40px;
 }
 
 .search {
@@ -41,6 +41,9 @@ nav {
   background-origin: border-box;
   background-clip: content-box, border-box;
   background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sr-text {
@@ -57,21 +60,15 @@ input {
   border: 0;
   outline: 0;
   background: transparent;
-  margin-left: 70px;
-  color: #858585;
+  color: var(--text-color);
   font-size: 12px;
   font-weight: 400;
   opacity: 0.8;
-  padding-left: 10px;
-  margin-top: 12px;
+  padding-left: 15px;
+  height: 20px;
 }
 
 .s-icon {
-  position: absolute;
-  z-index: 2;
-  top: 22px;
-  padding-top: 13px;
-  padding-left: 37px;
   cursor: pointer;
 }
 
@@ -94,12 +91,12 @@ input {
 .p-img {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .bell-notification {
   z-index: 2;
   position: relative;
-  right: 22px;
   top: 1px;
 }
 
@@ -110,7 +107,11 @@ input {
   font-weight: 700;
   position: absolute;
   z-index: 2;
-  background: linear-gradient(185deg, var(--gradient-pink) 0%, var(--gradient-blue) 100%);
+  background: linear-gradient(
+    185deg,
+    var(--gradient-pink) 0%,
+    var(--gradient-blue) 100%
+  );
   top: 0px;
   right: -6px;
   border-radius: 50%;
@@ -119,4 +120,33 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.dark-mode-menu {
+  position: absolute;
+  top: 40px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  width: 160px;
+  justify-content: space-between;
+  background: red;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+button.darkbtn {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 5px;
+}
+button.darkbtn:hover{
+  background-color: var(--dark-btn-bg);
 }

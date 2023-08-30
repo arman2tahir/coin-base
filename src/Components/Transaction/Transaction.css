@@ -68,7 +68,7 @@ h1.t-title {
     text-align: center;
 }
 .t-status-btn button {
-    color: var(--text-color);
+    color: #fff;
     font-family: Poppins;
     font-size: 12px;
     font-style: normal;

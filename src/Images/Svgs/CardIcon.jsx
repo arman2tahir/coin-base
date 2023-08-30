@@ -1,0 +1,99 @@
+export const CardIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="18"
+      height="13"
+      viewBox="0 0 18 13"
+      fill="none"
+    >
+      <path
+        d="M2.14286 1.39258H15.8571C16.4857 1.39258 17 1.90686 17 2.53544V11.1069C17 11.7354 16.4857 12.2497 15.8571 12.2497H2.14286C1.51429 12.2497 1 11.7354 1 11.1069V2.53544C1 1.90686 1.51429 1.39258 2.14286 1.39258Z"
+        stroke="url(#paint0_linear_1_1077)"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M1 4.24934H17"
+        stroke="url(#paint1_linear_1_1077)"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M15.2856 9.39236V9.96379"
+        stroke="url(#paint2_linear_1_1077)"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M13.5713 9.39236V9.96379"
+        stroke="url(#paint3_linear_1_1077)"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M11.8574 9.39236V9.96379"
+        stroke="url(#paint4_linear_1_1077)"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_1_1077"
+          x1="9.8"
+          y1="-0.316416"
+          x2="10.2159"
+          y2="18.9273"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="var(--gradient-icons1)" />
+          <stop offset="1" stopColor="var(--gradient-icons2)" />
+        </linearGradient>
+        <linearGradient
+          id="paint1_linear_1_1077"
+          x1="9.8"
+          y1="4.09194"
+          x2="9.80353"
+          y2="5.8652"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="var(--gradient-icons1)" />
+          <stop offset="1" stopColor="var(--gradient-icons2)" />
+        </linearGradient>
+        <linearGradient
+          id="paint2_linear_1_1077"
+          x1="15.8356"
+          y1="9.30242"
+          x2="15.8541"
+          y2="10.3154"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="var(--gradient-icons1)" />
+          <stop offset="1" stopColor="var(--gradient-icons2)" />
+        </linearGradient>
+        <linearGradient
+          id="paint3_linear_1_1077"
+          x1="14.1213"
+          y1="9.30242"
+          x2="14.1397"
+          y2="10.3154"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="var(--gradient-icons1)" />
+          <stop offset="1" stopColor="var(--gradient-icons2)" />
+        </linearGradient>
+        <linearGradient
+          id="paint4_linear_1_1077"
+          x1="12.4074"
+          y1="9.30242"
+          x2="12.4259"
+          y2="10.3154"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="var(--gradient-icons1)" />
+          <stop offset="1" stopColor="var(--gradient-icons2)" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};

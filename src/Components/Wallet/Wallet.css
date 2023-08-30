@@ -4,7 +4,7 @@
   background: var(--primary-color);
   margin-top: 40px;
   padding: 40px;
-  background-image: url(../../Images/w-bg.svg);
+  background-image: url(../../Images/w-bg.svg), linear-gradient(180deg, var(--bg-gradient1) 0%, var(--bg-gradient2) 100%);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -12,7 +12,7 @@
   overflow: hidden;
 }
 h1.w-title {
-  color: var(--text-color);
+  color: #fff;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -55,7 +55,7 @@ img.trophy {
 }
 button.tatalEarn {
   background: linear-gradient(144deg, #fc58b3 0%, #feae68 100%);
-  color: var(--text-color);
+  color: #fff;
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;
@@ -67,7 +67,7 @@ button.tatalEarn {
 }
 button.balance {
   background: linear-gradient(144deg, #fc58b3 0%, #feae68 100%);
-  color: var(--text-color);
+  color: #fff;
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;
@@ -79,7 +79,7 @@ button.balance {
 }
 .w-total h1,
 .w-balance h1 {
-  color: var(--text-color);
+  color: #fff;
   font-family: Poppins;
   font-size: 36px;
   font-style: normal;
@@ -88,7 +88,7 @@ button.balance {
 }
 .w-total p,
 .w-balance p {
-  color: var(--text-color);
+  color: #fff;
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;

@@ -1,0 +1,32 @@
+export const CircleImage2 = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="18"
+      height="18"
+      viewBox="0 0 18 18"
+      fill="none"
+    >
+      <path
+        opacity="0.2"
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18Z"
+        fill="url(#paint0_linear_1_1454)"
+      />
+      <defs>
+        <linearGradient
+          id="paint0_linear_1_1454"
+          x1="9.9"
+          y1="-2.83333"
+          x2="10.9155"
+          y2="29.0533"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="var(--gradient-pink)" />
+          <stop offset="1" stopColor="var(--gradient-blue)" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};

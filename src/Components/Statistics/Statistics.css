@@ -45,13 +45,13 @@ h2.project-name {
   text-align: end;
 }
 .bar-lines {
-  border-left: 3px solid #ffffff99;
+  border-left: 3px solid var(--border-color);
   display: flex;
   flex: 1;
   background: repeating-linear-gradient(
     to bottom,
-    rgb(255 255 255 / 25%) 0px,
-    rgb(255 255 255 / 25%) 1px,
+    var(--border-color) 0px,
+    var(--border-color) 1px,
     transparent 0px,
     transparent 60px
   );
@@ -63,8 +63,8 @@ h2.project-name {
   justify-content: center;
   background-image: repeating-linear-gradient(
     to left,
-    rgb(30 3 56) 0px,
-    rgb(30 3 56) 1.5px,
+    var(--primary-color) 0px,
+    var(--primary-color) 1.5px,
     transparent 0px,
     transparent 5px
   );
