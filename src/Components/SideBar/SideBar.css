@@ -48,6 +48,7 @@ aside {
   cursor: pointer;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
+  transition: 0.3s !important;
 }
 .sidebar {
   padding: 40px 0;
@@ -107,6 +108,18 @@ aside {
 
 a {
   text-decoration: none;
+}
+
+.s-overview:hover {
+  background: linear-gradient(
+    185deg,
+    var(--gradient-pink) 0%,
+    var(--gradient-blue) 100%
+  );
+  color: #fff;
+}
+.s-overview:hover svg stop {
+  stop-color: #fff;
 }
 
 .active {
