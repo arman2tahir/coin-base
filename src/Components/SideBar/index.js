@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./styles.css";
 import { Link, useLocation } from "react-router-dom";
 import {
@@ -12,8 +12,6 @@ import {
 } from "../../assets/svgs";
 
 export default function SideBar() {
-  const [activeBar, setActiveBar] = useState(0);
-
   const sidebarItems = [
     { icon: <EyeIcon />, label: "Overview", path: "/" },
     { icon: <UserIcon />, label: "User", path: "/users" },
@@ -23,10 +21,6 @@ export default function SideBar() {
     { icon: <StatsIcon />, label: "Statistics", path: "/statistics" },
     { icon: <SettingIcon />, label: "Setting", path: "/settings" },
   ];
-
-  const handleItemClick = (index) => {
-    setActiveBar(index);
-  };
 
   let location = useLocation();
 
@@ -41,7 +35,6 @@ export default function SideBar() {
               className={`s-overview ${
                 location.pathname === item.path && "active"
               }`}
-              onClick={() => handleItemClick(index)}
             >
               <div className="s-wrapper">
                 {item.icon}
